@@ -1,5 +1,14 @@
-h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: x-large;
-    font-weight: bold;
+.navbar-brand{
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 32px;
+    padding-right: 8px;
+}
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 8px;
 }
