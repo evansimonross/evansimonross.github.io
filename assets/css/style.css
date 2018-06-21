@@ -1,0 +1,65 @@
+body{
+    background: 
+    linear-gradient(
+        rgba(112, 128, 144, 0.15),
+        rgba(112, 128, 144, 0.65)
+    ),
+
+    /* Background image from https://www.toptal.com/designers/subtlepatterns/ */
+    url(../images/upfeathers.png);
+}
+
+.navbar{
+    background: 
+    linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../images/upfeathers.png);
+    border-bottom: solid 3px #d3c8ee99;
+}
+
+.navbar-brand{
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 32px;
+    padding-right: 8px;
+}
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.contents{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: 
+    linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../images/upfeathers.png);
+    border: solid 3px #d3c8ff99;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 32px;
+    padding-right: 8px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-bottom: solid 3px #d3c8ff99;
+}
