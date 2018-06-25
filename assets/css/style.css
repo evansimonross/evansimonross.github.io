@@ -79,17 +79,21 @@ hr {
 
 .portfolio-img-col{
     padding-left:0px;
+    padding-bottom: 65px;
+}
+
+.portfolio-text-col{
+    padding-bottom: 65px;
 }
 
 .portfolio-item{
     margin: auto;
     border: solid 3px #d3c8ff99;
-    padding-bottom: 65px;
 }
 
 .btn{
     position: absolute;
-    bottom: -50px;
+    bottom: 15px;
     width: 50%;
 }
 
