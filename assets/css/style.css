@@ -16,7 +16,7 @@ body{
         rgba(255, 255, 255, 0.6)
     ),
     url(../images/upfeathers.png);
-    border-bottom: solid 3px #d3c8ee99;
+    border-bottom: solid 3px #d3c8ff99;
 }
 
 .navbar-brand{
@@ -58,8 +58,100 @@ h1{
     padding-right: 8px;
 }
 
+h2{
+    margin-top: 5px;
+}
+
 hr {
     border: 0;
     height: 0;
     border-bottom: solid 3px #d3c8ff99;
 }
+
+#pic{
+    float:left;
+    margin-right: 10px;
+}
+
+.portfolio-img{
+    width: 100%;
+}
+
+.portfolio-img-col{
+    padding-left:0px;
+}
+
+.portfolio-item{
+    margin: auto;
+    border: solid 3px #d3c8ff99;
+    padding-bottom: 65px;
+}
+
+.btn{
+    position: absolute;
+    bottom: -50px;
+    width: 50%;
+}
+
+.right-btn{
+    right:15px;
+}
+
+
+.btn-info {
+    color: #000;
+    background-color: #d3c8ff99;
+    border-color: #bfaeff99;
+  }
+  .btn-info:focus,
+  .btn-info.focus {
+    color: #ffffff;
+    background-color: #aa95ffcc;
+    border-color: #592fffcc;
+  }
+  .btn-info:hover {
+    color: #ffffff;
+    background-color: #aa95ffcc;
+    border-color: #8e71ffcc;
+  }
+  .btn-info:active,
+  .btn-info.active,
+  .open > .dropdown-toggle.btn-info {
+    color: #ffffff;
+    background-color: #aa95ffcc;
+    border-color: #8e71ffcc;
+  }
+  .btn-info:active:hover,
+  .btn-info.active:hover,
+  .open > .dropdown-toggle.btn-info:hover,
+  .btn-info:active:focus,
+  .btn-info.active:focus,
+  .open > .dropdown-toggle.btn-info:focus,
+  .btn-info:active.focus,
+  .btn-info.active.focus,
+  .open > .dropdown-toggle.btn-info.focus {
+    color: #ffffff;
+    background-color: #8e71ffcc;
+    border-color: #592fffcc;
+  }
+  .btn-info:active,
+  .btn-info.active,
+  .open > .dropdown-toggle.btn-info {
+    background-image: none;
+  }
+  .btn-info.disabled:hover,
+  .btn-info[disabled]:hover,
+  fieldset[disabled] .btn-info:hover,
+  .btn-info.disabled:focus,
+  .btn-info[disabled]:focus,
+  fieldset[disabled] .btn-info:focus,
+  .btn-info.disabled.focus,
+  .btn-info[disabled].focus,
+  fieldset[disabled] .btn-info.focus {
+    background-color: #d3c8ff66;
+    border-color: #bfaeff66;
+  }
+  .btn-info .badge {
+    color: #d3c8ff99;
+    background-color: #ffffff;
+  }
