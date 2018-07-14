@@ -68,6 +68,15 @@ hr {
     border-bottom: solid 3px #d3c8ff99;
 }
 
+textarea{
+    width: 100%;
+    height: 300px;
+}
+
+input{
+    width: 100%;
+}
+
 .pic{
     float:left;
     margin-right: 10px;
