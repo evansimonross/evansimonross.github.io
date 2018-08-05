@@ -58,8 +58,23 @@ h1{
     padding-right: 8px;
 }
 
+a{
+    color: #b195dd;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #d3c8ff;
+    text-decoration: none;
+}
+
+b{
+    font-weight: 600;
+}
+
 h2{
     margin-top: 5px;
+    font-weight: 400;
 }
 
 hr {
