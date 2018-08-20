@@ -97,6 +97,13 @@ input{
     margin-right: 10px;
 }
 
+#canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
 .portfolio-img{
     width: 100%;
 }
