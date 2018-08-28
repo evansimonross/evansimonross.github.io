@@ -8,6 +8,8 @@ if (path.indexOf("projects") != -1) {
 while (path.indexOf("/") != -1) {
     path = path.substring(path.indexOf("/") + 1);
 }
+
+if (path === "") { path = "index.html"; }
 var html =
     `<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="${basePath + 'index.html'}">Evan Simon Ross</a>
